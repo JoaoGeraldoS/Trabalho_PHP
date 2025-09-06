@@ -47,7 +47,7 @@ $itens = $pdo->query("SELECT * from cardapio");
             <?php
                 if (isset($_SESSION['error_message'])) {
                     echo '<p style="color: red; font-weight: bold; text-align: center;">' . htmlspecialchars($_SESSION['error_message']) . '</p>';
-                    unset($_SESSION['error_message']); // Limpa a mensagem após a exibição
+                    unset($_SESSION['error_message']);
                 }
             ?>
         </form>
@@ -56,4 +56,5 @@ $itens = $pdo->query("SELECT * from cardapio");
 
     </section>
 </body>
+
 </html>
