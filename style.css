@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #333333be;
+   
+}
+
+.container {
+    width: 80dvw;
+    max-height: 80vh;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #d6d6d6;
+    box-shadow: 1px 1px 10px #00000080;
+    overflow-y: auto;
+}
+
+.container-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #121212;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+
+.pedido {
+    border-bottom: 1px solid #a7a7a7d7;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.pedido .btn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    float: right;
+  
+}
+
+a {
+    border: 1px solid #333333bb;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.582);
+}
+
+a:hover {
+    background-color: #646464;
+    color: white;
+}
+
+.pedido h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+.pedido p {
+    margin: 5px 0;
+}

@@ -1,0 +1,59 @@
+
+.cliente-itens {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.entrada {
+    width: 20dvw;
+    height: 3dvh;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#container-cliente {
+    border-bottom: 1px solid #121212;
+    margin-bottom: 30px;
+
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.itens-cardapio {
+    margin-left: 10px;
+    
+}
+
+#check {
+    padding-bottom: 10px;
+    margin: 15px 0 10px 0;
+}
+
+#container-buttons {
+    margin-top: 10px;
+}
+
+.container .btn {
+    border: 1px solid #333333bb;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.582);
+}
+
+.back {
+    font-size: 13.5px;
+}
+.btn:hover {
+    background-color: #646464;
+    color: white;
+}
+
